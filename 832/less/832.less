@@ -1,0 +1,137 @@
+/*
+	==================================================================================================================
+												BEGIN BANNER 
+	==================================================================================================================
+*/
+.type-832{
+	@color-1: #eee;
+	@color-2: #fafafa;
+	@color-3: #bac39f;
+	@color-4: #f5f9e7;
+	@color-5: #888;
+	@color-6: #777;
+	@color-7: #fff;
+	@background-1: #36d7ac;
+	@background-2: #41b91c;
+	@background-3: #fbfef2;
+	@background-4: #f3c200;
+	@background-5: #cfa500;
+	.content {
+    	padding: 30px 0;
+	}
+	
+	.pricing {
+	  position: relative;
+	  margin-bottom: 15px;
+	  margin-top: 15px;
+	  border: 3px solid @color-1;
+	}
+	.pricing-active {
+	  border: 3px solid @background-1;
+	  margin-top: -10px;
+	  box-shadow: 7px 7px rgba(54, 215, 172, 0.2);
+	}
+	.pricing:hover {
+	  border: 3px solid @background-1;
+	}
+	.pricing:hover h4 {
+	  color: @background-1;
+	}
+	.pricing-head {
+	  text-align: center;
+	}
+	.pricing-head h3,
+	.pricing-head h4 {
+	  margin: 0;
+	  line-height: normal;
+	}
+	.pricing-head h3 span,
+	.pricing-head h4 span {
+	  display: block;
+	  margin-top: 5px;
+	  margin-bottom: 5px;
+	  font-size: 14px;
+	  font-style: italic;
+	}
+	.pricing-head h3 {
+	  font-weight: 300;
+	  color: @color-2;
+	  padding: 12px 0;
+	  font-size: 27px;
+	  background: @background-1;
+	  border-bottom: solid 1px @background-2;
+	}
+	.pricing-head h4 {
+	  color: @color-3;
+	  padding: 5px 0;
+	  font-size: 54px;
+	  font-weight: 300;
+	  background: @background-3;
+	  border-bottom: solid 1px @color-4;
+	}
+	.pricing-head-actives h4 {
+	  color: @background-1;
+	}
+	.pricing-head h4 i {
+	  top: -8px;
+	  font-size: 28px;
+	  font-style: normal;
+	  position: relative;
+	}
+	.pricing-head h4 span {
+	  top: -10px;
+	  font-size: 14px;
+	  font-style: normal;
+	  position: relative;
+	}
+	.pricing-content{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.pricing-content li {
+	  color: @color-5;
+	  font-size: 12px;
+	  padding: 7px 15px;
+	  border-bottom: solid 1px @color-4;
+	}
+	.pricing-footer {
+	  color: @color-7;
+	  font-size: 11px;
+	  line-height: 17px;
+	  text-align: center;
+	  padding: 19px 20px 19px;	
+
+	  p{
+	  	margin-top: 10px;
+	  	margin-bottom: 10px;
+	  }
+	}
+	.price-active,
+	.pricing:hover {
+	  z-index: 9;
+	}
+	.price-active h4 {
+	  color: @background-1;
+	}
+	.no-space-pricing .pricing:hover {
+	  transition: box-shadow 0.2s ease-in-out;
+	}
+	.no-space-pricing .price-active .pricing-head h4,
+	.no-space-pricing .pricing:hover .pricing-head h4 {
+	  color: @background-1;
+	  padding: 15px 0;
+	  font-size: 80px;
+	  transition: color 0.5s ease-in-out;
+	}
+	.yellow-crusta.btn {
+	  color: @color-7;
+	  background-color: @background-4;
+	}
+	.yellow-crusta.btn:hover,
+	.yellow-crusta.btn:focus,
+	.yellow-crusta.btn:active,
+	.yellow-crusta.btn.active {
+	    color: @color-7;
+	    background-color: @background-5;
+	}
+}
