@@ -44,9 +44,7 @@ $url_path = str_replace('\\', '/', $url_path);
 						</ul>
 
 						<div class="pricing-footer">
-							<p>
-								 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna psum olor .
-							</p>
+							
 							<a href="#" class="btn yellow-crusta">
 							Sign Up
 							</a>
@@ -83,9 +81,7 @@ $url_path = str_replace('\\', '/', $url_path);
 							</li>
 						</ul>
 						<div class="pricing-footer">
-							<p>
-								 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna psum olor .
-							</p>
+							
 							<a href="#" class="btn yellow-crusta">
 							Sign Up
 							</a>
@@ -122,9 +118,7 @@ $url_path = str_replace('\\', '/', $url_path);
 							</li>
 						</ul>
 						<div class="pricing-footer">
-							<p>
-								 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna psum olor .
-							</p>
+							
 							<a href="#" class="btn yellow-crusta">
 							Sign Up
 							</a>
@@ -161,9 +155,7 @@ $url_path = str_replace('\\', '/', $url_path);
 							</li>
 						</ul>
 						<div class="pricing-footer">
-							<p>
-								 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna psum olor .
-							</p>
+							
 							<a href="#" class="btn yellow-crusta">
 							Sign Up
 							</a>
