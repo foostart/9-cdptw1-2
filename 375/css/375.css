@@ -150,7 +150,7 @@
   background-color: #fff;
   border: 1px solid #e6e6e6;
   border-radius: 3px;
-  bottom: -46px;
+  bottom: -22px;
   clear: both;
   box-sizing: border-box;
   text-align: center;
@@ -171,7 +171,6 @@
 .type-375 #headersearchform #headersearchsubmit {
   text-indent: -9999px;
   background: #e89222 url(../images/search-form-submit.png) center center no-repeat;
-  border: 0;
   text-shadow: none;
 }
 .type-375 #headersearchform input.button {
