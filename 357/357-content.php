@@ -11,12 +11,17 @@ $url_path = str_replace('\\', '/', $url_path);
     <!---Begin Header-->
     <header id="header" class="style2 cta_button">
         <div class="container">
+          
             <div class="logo-container hasInfoCard">
-                <h1 id="logo">
+            <a href=""><span><img src="images/hoverme.png" alt="#" class="hoverme"></span></a>
+                <h1 id="logo"> 
+                     
                     <a href="#">
+                    
                         <img src="images/logo.png" alt="Kallyas Template for Joomla" title="Click to return to Kallayas Template's homepage">
                     </a>
                 </h1>
+               
             </div><!--Logo-->
             <!--========menu========-->
 
