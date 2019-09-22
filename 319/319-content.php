@@ -15,16 +15,22 @@ $url_path = str_replace('\\', '/', $url_path);
                     <p><a href="#">Home </a>/ <a href="#">Sport Wear</a> /<a href="#"> Red Sport T-Shirt</a></p>
                 </div>
                 <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">                    
-                 <img class="img-responsive" src="images/1.png" data-zoom-image="images/1.png" alt="">                                                      
+                 <img class="img-responsive" src="images/1.png" data-zoom-image="images/1.png" alt="">
+                 <div class="row">
+                 <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/1.png" data-zoom-image="images/1.png" alt=""></div>
+                 <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/1.png" data-zoom-image="images/1.png" alt=""></div>
+                 <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/1.png" data-zoom-image="images/1.png" alt=""></div>
+                 <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/1.png" data-zoom-image="images/1.png" alt=""></div>
+                 </div>                                                       
              </div>
              <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
                 <h1>Red Sport T-Shirt</h1>
                 <div class="star-rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true">(1 customer review)</i>
+                    <i class="fa fa-star start" aria-hidden="true"></i>
+                    <i class="fa fa-star start" aria-hidden="true"></i>
+                    <i class="fa fa-star start" aria-hidden="true"></i>
+                    <i class="fa fa-star start" aria-hidden="true"></i>
+                    <i class="fa fa-star start" aria-hidden="true">(1 customer review)</i>
 
 
                     <div class="price">                        
