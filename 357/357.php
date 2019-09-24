@@ -29,7 +29,7 @@ $less->compileFile('less/357.less', 'css/357.css');
         
         <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/357.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/357.js"></script>
     </head>
     <body>
         <?php include $dir_block . '/357-content.php'; ?>

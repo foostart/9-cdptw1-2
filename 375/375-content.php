@@ -106,7 +106,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </ul>
                             </li>
                             <li class="dropdown cart"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-shopping-basket"></i>Cart <span class="cart-items-number">0</span></a>
-                                <ul class="dropdown-menu" role="menu"> Không có sản phẩm được chọn. </ul>
+                                <ul class="dropdown-menu" role="menu"> <li>Không có sản phẩm được chọn.</li>  </ul>
                             </li>
                         </ul>
                     </div>
@@ -117,7 +117,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div id="headersearchform-container" class="group">
                 <form role="search" method="get" id="headersearchform" action="#">
                     <div class="group formborder">
-                        <input type="text" value="" name="s" id="headers" placeholder="Search products here..." autocomplete="off" vk_1c515="subscribed">
+                        <input type="text" value="" name="s" id="headers" placeholder="Search products here..." autocomplete="off">
                         <input type="submit" class="button" id="headersearchsubmit" value="Search">
                     </div>
                     <input type="hidden" name="post_type" value="product"> 
@@ -132,7 +132,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <!-- SLOGAN -->
             <div class="slogan">
                 <h2 class="nopadding">
-                    <img src="images/cart1.png">I'm Sistina theme. <strong>Nice to meet you.</strong></h2>
+                    <img src="images/cart1.png" alt="#">I'm Sistina theme. <strong>Nice to meet you.</strong></h2>
             </div>
         </div>
     </div>
