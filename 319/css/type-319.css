@@ -4,6 +4,9 @@
   color: #aa4243;
   padding-top: 1em;
 }
+.type-319 .start:hover {
+  color: gold;
+}
 .type-319 .form-control {
   width: 70px;
   height: 49px;
@@ -60,4 +63,44 @@
   color: #808080;
   font-size: 15px;
   line-height: 1.7;
+}
+.type-319 html,
+.type-319 body {
+  position: relative;
+  height: 100%;
+}
+.type-319 body {
+  background: #000;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.type-319 .swiper-container {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-319 .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.type-319 .gallery-top {
+  height: 80%;
+  width: 100%;
+}
+.type-319 .gallery-thumbs {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.type-319 .gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+.type-319 .gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
 }

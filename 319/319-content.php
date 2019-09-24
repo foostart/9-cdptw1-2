@@ -6,6 +6,19 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
+$image = 1;
+if(isset($_GET['hinh1'])){
+    $image = 1;
+}else if(isset($_GET['hinh2'])){
+    $image = 2;
+}else if(isset($_GET['hinh3'])){
+    $image = 3;
+} else if(isset($_GET['hinh4'])){
+    $image = 4;
+} else{
+    $image = 1;
+}
+
 ?>
 <div class="type-319">
     <div class="container">
@@ -15,13 +28,13 @@ $url_path = str_replace('\\', '/', $url_path);
                     <p><a href="#">Home </a>/ <a href="#">Sport Wear</a> /<a href="#"> Red Sport T-Shirt</a></p>
                 </div>
                 <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">                    
-                 <img class="img-responsive" src="images/1.png" data-zoom-image="images/1.png" alt="">
+                 <img class="img-responsive" src="images/<?php echo $image; ?>.png" data-zoom-image="images/1.png" alt=""><br>
                  <div class="row">
-                 <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/1.png" data-zoom-image="images/1.png" alt=""></div>
-                 <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/1.png" data-zoom-image="images/1.png" alt=""></div>
-                 <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/1.png" data-zoom-image="images/1.png" alt=""></div>
-                 <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/1.png" data-zoom-image="images/1.png" alt=""></div>
-                 </div>                                                       
+                 <a href="?hinh1" class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/1.png" data-zoom-image="images/1.png" alt=""></a>
+                 <a href="?hinh2" class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/2.png" data-zoom-image="images/1.png" alt=""></a>
+                 <a href="?hinh3" class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/3.png" data-zoom-image="images/1.png" alt=""></a>
+                 <a href="?hinh4" class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/4.png" data-zoom-image="images/1.png" alt=""></a>
+                 </div>                                                   
              </div>
              <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
                 <h1>Red Sport T-Shirt</h1>
@@ -47,7 +60,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
 
                     <div class="cart">                          
-                        <input class="form-control text-center" value="1" type="number">                        
+                        <input class="form-control text-center" value="1">                        
                         <button type="button" class="btn btn-danger">ADD TO CART</button>
                     </div>
 
