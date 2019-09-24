@@ -86,6 +86,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                             <li class="dropdown login-res"> <a href="#" class="dropdown-toggle" >Login/Register</a>
                                 <ul class="dropdown-menu register">
+                                    <li>
                                     <form>
                                         <div class="form-group">
                                             <input type="text" class="form-control"  placeholder="Username"> </div>
@@ -103,6 +104,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <li>Compare</li>
                                         </ul>
                                     </form>
+</li>
                                 </ul>
                             </li>
                             <li class="dropdown cart"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-shopping-basket"></i>Cart <span class="cart-items-number">0</span></a>
