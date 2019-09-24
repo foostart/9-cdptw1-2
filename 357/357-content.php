@@ -54,7 +54,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <i class="fa fa-shopping-basket"></i>
                         MY CART
                     </a>
-                    <ul class="dropdown-menu" role="menu"> Không có sản phẩm được chọn. </ul>
+                    <ul class="dropdown-menu" role="menu"><li>Không có sản phẩm được chọn.</li>  </ul>
                 </li>  
                 <li class="drop">
                     <a href="#">
@@ -97,7 +97,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="dropdown mega-dropdown">
                             <a href="#">SLIDERS</a>
                             <ul class="dropdown-menu mega-dropdown-menu" role="menu">
-                                <li class="col-md-3">
+                                <li class="col-md-6">
                                     <ul>
                                         <li class="dropdown-header">IOSSlider</li>
                                         <li><a href="#">Main Slider</a></li>
@@ -107,7 +107,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <li><a href="#">With thumb</a></li>
                                     </ul>
                                 </li>
-                                <li class="col-md-3">
+                                <li class="col-md-6">
                                     <ul>
                                         <li class="dropdown-header">Fixed Slider</li>
                                         <li><a href="#">Syle 1(Flex Slider)</a></li>
@@ -115,23 +115,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <li><a href="#">Style 3(Wom Slider)</a></li>
                                     </ul>
                                 </li>
-                                <li class="col-md-3">
-                                    <ul>
-                                        <li class="dropdown-header">Circular Content</li>
-                                        <li><a href="#">Default Style</a></li>
-                                        <li><a href="#">Alternative Style</a></li>
-                                    </ul>
-                                </li>
-                                <li class="col-md-3">
-                                    <ul>
-                                        <li class="dropdown-header">Static Content</li>
-                                        <li><a href="#">Default Style</a></li>
-                                        <li><a href="#">Style 2/Boxed</a></li>
-                                        <li><a href="#">Style 3/Video</a></li>
-                                        <li><a href="#">Style 4/Maps</a></li>
-                                        <li><a href="#">Style 5/Text pop</a></li>
-                                    </ul>
-                                </li>
+                                
+                                
                             </ul>
                         </li><!--Silders-->
 
@@ -172,40 +157,21 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="dropdown mega-dropdown">
                             <a href="#" class="dropdown-toggle" role="button" aria-expanded="true">SHOP</a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Shop Frontpage</a></li>
-                                <li><a href="#">Categories Laypout</a></li>
-                                <li><a href="#">Categories Laypout</a></li>
-                                <li><a href="#">Categories Laypout</a></li>
-                                <li><a href="#">Categories Laypout</a></li>
-                                <li><a href="#">Categories Laypout</a></li>
-                                <li><a href="#">Categories Laypout</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Separated link</a></li>
+                              
+                                
                             </ul>
                         </li><!--Shop-->
                         <li class="dropdown mega-dropdown">
                             <a href="#" class="dropdown-toggle" role="button" aria-expanded="true">PAGES</a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Process</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Separated link</a></li>
+                                
+                               
                             </ul>
                         </li><!--Pages-->
                         <li class="dropdown mega-dropdown">
                             <a href="#" class="dropdown-toggle" role="button" aria-expanded="true">STYLES</a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Typoghaphy</a></li>
-                                <li><a href="#">Table Design</a></li>
-                                <li><a href="#">Button Desgin</a></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">Button Desgin</a></li>
-                                <li><a href="#">Button Desgin</a></li>
+                               
                             </ul>
                         </li><!--Style-->
                     </ul><!--Main Menu-->

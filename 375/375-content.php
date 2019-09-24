@@ -82,39 +82,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                             <li class="dropdown mega-dropdown"> 
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES</a>
-                                <ul class="dropdown-menu mega-dropdown-menu">
-                                    <li class="col-sm-4">
-                                        <ul>
-                                            <li class="dropdown-header">Features</li>
-                                            <li><a href="#">Auto Carousel</a> </li>
-                                            <li><a href="#">Carousel Control</a> </li>
-                                            <li><a href="#">Left & Right Navigation</a> </li>
-                                            <li><a href="#">Four Columns Grid</a> </li>
-                                            <li class="divider"></li>
-                                            <li class="dropdown-header">Fonts</li>
-                                            <li><a href="#">Glyphicon</a> </li>
-                                            <li><a href="#">Google Fonts</a> </li>
-                                        </ul>
-                                    </li>
-                                    <li class="col-sm-4">
-                                        <ul>
-                                            <li class="dropdown-header">Plus</li>
-                                            <li><a href="#">Navbar Inverse</a> </li>
-                                            <li><a href="#">Pull Right Elements</a> </li>
-                                            <li><a href="#">Coloured Headers</a> </li>
-                                            <li><a href="#">Primary Buttons & Default</a> </li>
-                                        </ul>
-                                    </li>
-                                    <li class="col-sm-4">
-                                        <ul>
-                                            <li class="dropdown-header">Much more</li>
-                                            <li><a href="#">Easy to Customize</a> </li>
-                                            <li><a href="#">Calls to action</a> </li>
-                                            <li><a href="#">Custom Fonts</a> </li>
-                                            <li><a href="#">Slide down on Hover</a> </li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                               
                             </li>
                             <li class="dropdown login-res"> <a href="#" class="dropdown-toggle" >Login/Register</a>
                                 <ul class="dropdown-menu register">
