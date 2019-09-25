@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/type-301.css">    
 
         <script src="js/jquery-1.11.0.min.js"></script>
-        <script src="js/bootstrap.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script>
 
          <script>
         $(document).ready(function () {

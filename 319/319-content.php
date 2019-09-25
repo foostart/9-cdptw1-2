@@ -22,19 +22,40 @@ if(isset($_GET['hinh1'])){
 ?>
 <div class="type-319">
     <div class="container">
+        
         <div class="row">   
             <div class="col-md-8 col-lg-8 col-xs-12 col-sm-8"> 
                 <div class="link">
                     <p><a href="#">Home </a>/ <a href="#">Sport Wear</a> /<a href="#"> Red Sport T-Shirt</a></p>
                 </div>
-                <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">                    
-                 <img class="img-responsive" src="images/<?php echo $image; ?>.png" data-zoom-image="images/1.png" alt=""><br>
-                 <div class="row">
-                 <a href="?hinh1" class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/1.png" data-zoom-image="images/1.png" alt=""></a>
-                 <a href="?hinh2" class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/2.png" data-zoom-image="images/1.png" alt=""></a>
-                 <a href="?hinh3" class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/3.png" data-zoom-image="images/1.png" alt=""></a>
-                 <a href="?hinh4" class="col-md-3 col-sm-3 col-lg-3 col-xs-3"> <img class="img-responsive" src="images/4.png" data-zoom-image="images/1.png" alt=""></a>
-                 </div>                                                   
+                <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
+
+                <div style = "height: 500px;">
+<div class="swiper-container gallery-top">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(./images/1.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/2.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/3.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/4.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/5.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/6.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/7.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/8.png)"></div>
+    </div>
+  </div>
+  <div class="swiper-container gallery-thumbs">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(./images/1.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/2.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/3.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/4.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/5.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/6.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/7.png)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/8.png)"></div>
+    </div>
+  </div>
+</div>                                                  
              </div>
              <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
                 <h1>Red Sport T-Shirt</h1>
