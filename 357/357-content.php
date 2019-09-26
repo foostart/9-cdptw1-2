@@ -26,11 +26,8 @@ $url_path = str_replace('\\', '/', $url_path);
             <!--========menu========-->
 
             <ul class="topnav navRight">
-                <li class="search">
-                    <input type="search" class="search-box" />
-                    <span class="search-button">
-                        <span class="search-icon"></span>
-                    </span>
+                <li>
+                   <div class="form-groud"><input type="text" id="search"></div> 
                 </li>
                 <!-- BEGIN support clickable button -->
                 <li class="support">
