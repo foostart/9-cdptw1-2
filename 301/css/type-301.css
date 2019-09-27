@@ -873,7 +873,7 @@
 }
 .type-301 .zaro-header #header #search_block_top #search_query_top {
   width: 100%;
-  height: auto;
+  height: 100%;
   border: none;
   position: absolute;
   padding: 7px 0;

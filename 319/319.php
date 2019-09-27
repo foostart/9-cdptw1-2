@@ -28,7 +28,7 @@ $less->compileFile('less/type-319.less', 'css/type-319.css');
     <link href="<?php echo $url_path ?>/css/type-319.css" rel="stylesheet" type="text/css" /> 
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="swiper.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
 
   <!-- Demo styles -->
   <style>
@@ -63,7 +63,7 @@ $less->compileFile('less/type-319.less', 'css/type-319.css');
   </style>
 
   <!-- Swiper JS -->
-  <script src="swiper.min.js"></script>
+  <script src="/css/swiper.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
@@ -88,7 +88,7 @@ $less->compileFile('less/type-319.less', 'css/type-319.css');
 </head>
 <body>
 <?php include $dir_block.'/319-content.php'; ?>
-    <script src="swiper.min.js"></script>
+    <script src="css/swiper.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>

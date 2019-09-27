@@ -209,8 +209,18 @@
                                 </div>
                             </div>
                         </div>
-
-                      
+                        <!--Search-->
+                        <div id="search_block_top" class="smooth05">
+                            <form id="searchbox" method="get" action="#">
+                                <input type="hidden" name="controller" value="search">
+                                <input type="hidden" name="orderby" value="position">
+                                <input type="hidden" name="orderway" value="desc">
+                                <input class="search_query ac_input" type="text" id="search_query_top" name="search_query" placeholder="Search..." autocomplete="off"3>
+                                <button type="submit" name="submit_search" class="searchbutton smooth02 main_bg_hvr">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

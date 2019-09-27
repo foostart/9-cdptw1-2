@@ -43,6 +43,9 @@ if(isset($_GET['hinh1'])){
       <div class="swiper-slide" style="background-image:url(./images/8.png)"></div>
     </div>
   </div>
+   <!-- Add Arrows -->
+   <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
   <div class="swiper-container gallery-thumbs">
     <div class="swiper-wrapper">
       <div class="swiper-slide" style="background-image:url(./images/1.png)"></div>
@@ -55,6 +58,7 @@ if(isset($_GET['hinh1'])){
       <div class="swiper-slide" style="background-image:url(./images/8.png)"></div>
     </div>
   </div>
+
 </div>                                                  
              </div>
              <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
