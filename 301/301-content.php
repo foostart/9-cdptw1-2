@@ -55,15 +55,7 @@
                                         <img src="images/header/3.jpg" class="dib" alt="en">
                                         <a href="#" title="Español">Español</a>
                                     </li>
-                                    <li class="smooth02 main-bg-hover">
-                                        <img src="images/header/4.jpg" class="dib" alt="en">
-                                        <a href="#" title="Français">Français</a>
-                                    </li>
-                                    <li class="smooth02 main-bg-hover">
-                                        <img src="images/header/7.jpg" class="dib" alt="en">
-                                        <a href="#" title="العربية">العربية
-                                        </a>
-                                    </li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -91,9 +83,7 @@
                                             <ul>
                                                 <li><a href="#" title="My orders" rel="nofollow">My orders</a></li>
                                                 <li><a href="#" title="My credit slips" rel="nofollow">My credit slips</a></li>
-                                                <li><a href="#" title="My addresses" rel="nofollow">My addresses</a></li>
-                                                <li><a href="#" title="Manage my personal information">My personal info</a></li>
-                                                <li><a href="#" title="My vouchers" rel="nofollow">My vouchers</a></li>
+                                               
                                             </ul>
                                         </div>
                                     </div>
