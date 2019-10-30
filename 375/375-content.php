@@ -126,6 +126,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 </form>
             </div>
         </div>
+        <br>
+        <br>
         <!-- END SEARCH BOX -->
         <div class="header-below">
             <div class="slider fixed-image inner group">

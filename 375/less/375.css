@@ -1,3 +1,11 @@
+.type-375 {
+  /*********************/
+  /*********************/
+  /*************SEARCH PRODUCT HERE****************/
+  /*****************END SEARCH PRODUCT HERE************/
+  /******************SLOGAN ***************************/
+  /***********************END SLOGON**********************/
+}
 .type-375 .navbar-collapse {
   padding: 0;
 }
@@ -10,13 +18,13 @@
 .type-375 .navbar-inverse .navbar-nav .dropdown:hover {
   border-top: 5px solid #e6e6e6;
 }
-.type-375 .navbar-inverse .navbar-nav>li>a:hover {
+.type-375 .navbar-inverse .navbar-nav > li > a:hover {
   color: #e89222;
   background: white;
   box-shadow: none !important;
 }
-.type-375 .dropdown-menu>li>a:focus,
-.type-375 .dropdown-menu>li>a:hover {
+.type-375 .dropdown-menu > li > a:focus,
+.type-375 .dropdown-menu > li > a:hover {
   color: #e89222;
   text-decoration: none;
   background-color: #fff;
@@ -212,10 +220,10 @@
   letter-spacing: -0.9px;
   text-align: center;
 }
-.type-375 .nav>li {
+.type-375 .nav > li {
   border-right: 1px solid #e6e6e6 !important;
 }
-.type-375 .navbar-inverse .navbar-nav>li:hover {
+.type-375 .navbar-inverse .navbar-nav > li:hover {
   background-color: #fff;
 }
 .type-375 .navbar-inverse .navbar-nav > a:hover,
@@ -278,7 +286,7 @@
   min-width: 210px;
 }
 .type-375 li.login-res {
-  border-right: none !important;
+  border-right: none!important;
 }
 .type-375 li.login-res a {
   color: #e1820a;
@@ -342,7 +350,7 @@
   .type-375 .mega-dropdown-menu > li > ul > li > a {
     font-size: 8px;
   }
-  .type-375 .dropdown-menu>li>a {
+  .type-375 .dropdown-menu > li > a {
     font-size: 8px;
   }
 }

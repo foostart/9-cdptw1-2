@@ -148,6 +148,7 @@
                                 <span class="ajax_cart_total"> 112,42 € </span> 
                                 <span class="ajax_cart_no_product unvisible">(empty)</span>
                             </a>
+                            
                             <div class="dropdown-menu cart_block block exclusive" style="display: none;">
                                 <div class="block_content">
                                     <div class="cart_block_list">
