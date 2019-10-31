@@ -15,8 +15,9 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="container">
         <div class="row" style="padding-top:15px;">
             <div class="col-md-3">
+				<h1 style="text-align:center;">Product 1</h1>
                 <div class="externalframe">
-                    <a href="./chitiet.html" style="text-decoration: none;color: black">
+                    <a href="#" style="text-decoration: none;color: black">
                         <div class="boder"><img src="./images/8.jpg" alt="#"
                                 class="img-responsive"></div>
                         <p class="title">Iphone Xs Max 256GB</p>
@@ -41,8 +42,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!------->
             </div>
             <div class="col-md-3">
+			<h1 style="text-align:center;">Product 2</h1>
                 <div class="externalframe">
-                    <a href="./chitiet.html" style="text-decoration: none;color: black">
+                    <a href="#" style="text-decoration: none;color: black">
                         <div class="boder"><img src="./images/9.jpg" alt="#"
                                 class="img-responsive"> </div>
                         <p class="title">Iphone Xs 256GB</p>
@@ -63,8 +65,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="col-md-3">
+			<h1 style="text-align:center;">Product 3</h1>
                 <div class="externalframe">
-                    <a href="./chitiet.html" style="text-decoration: none;color: black">
+                    <a href="#" style="text-decoration: none;color: black">
                         <div class="boder"><img src="./images/10.jpg" alt="#"
                                 class="img-responsive"></div>
                         <p class="title">Iphone Xs Max 64GB</p>
@@ -84,8 +87,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="col-md-3">
+			<h1 style="text-align:center;">Product 4</h1>
                 <div class="externalframe">
-                    <a href="./chitiet.html" style="text-decoration: none;color: black">
+                    <a href="#" style="text-decoration: none;color: black">
                         <div class="boder">
                             <img src="./images/11.jpg" alt="#" class="img-responsive"></div>
                         <p class="title">Iphone X 256GB</p>
