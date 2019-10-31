@@ -1,3 +1,6 @@
+/*=================================
+         CSS Product Row
+  =================================*/
 .price {
   color: red;
   font-weight: bold;
@@ -24,6 +27,7 @@
 .installment:hover {
   background: #00aeef;
 }
+/*Hiệu ứng hover*/
 .externalframe {
   border: 1px solid #eeeeee;
 }
@@ -32,16 +36,25 @@
 }
 .boder img {
   transition-duration: 0.5s;
+  /* Safari & Google Chrome */
   -webkit-transition-duration: 0.5s;
+  /* Mozilla Firefox */
   -moz-transition-duration: 0.5s;
+  /* Opera */
   -o-transition-duration: 0.5s;
+  /* IE 9 */
   -ms-transition-duration: 0.5s;
 }
+/* Hover chuột vào thumbnail */
 .boder img:hover {
   transform: scale(1.2);
+  /* Safari & Google Chrome */
   -webkit-transform: scale(1.2);
+  /* Mozilla Firefox */
   -moz-transform: scale(1.2);
+  /* Opera */
   -o-transform: scale(1.2);
+  /* IE 9 */
   -ms-transform: scale(1.2);
   cursor: pointer;
 }

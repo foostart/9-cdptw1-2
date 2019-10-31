@@ -11,157 +11,101 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-	<div class="type-832">
-		<div class="container content">
-			<div class="row">
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="pricing hover-effect">
-						<div class="pricing-head">
-							<h3>Begginer 
-								<span> Officia deserunt mollitia </span>
-							</h3>
-							<h4><i>$</i>5<i>.49</i>
-							<span>Per Month </span>
-							</h4>
-						</div>
+<!-----Product Row---->
+<div class="container">
+        <div class="row" style="padding-top:15px;">
+            <div class="col-md-3">
+                <div class="externalframe">
+                    <a href="./chitiet.html" style="text-decoration: none;color: black">
+                        <div class="boder"><img src="./images/8.jpg" alt="#"
+                                class="img-responsive"></div>
+                        <p class="title">Iphone Xs Max 256GB</p>
+                        <p class="price">35.990.000₫</p>
+                        <p>-----------------------------------------------</p>
+                        <p class="description">
+                            Màn hình:6.5,super Retina<br>HĐH:ios12<br>CPU: 4GB,ROM:256GB<br>Camara:Chính 12MP & phụ
+                            12MP,selfie:7MP<br>PIN:3174 mAH
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button class="buying">Mua</button>
+                            </div>
+                            <div class="col-md-6"><button class="installment">Trả Góp</button></div>
+                        </div>
+                    </a>
+                </div>
+               
+                <!------->
+               
+               
+                <!------->
+            </div>
+            <div class="col-md-3">
+                <div class="externalframe">
+                    <a href="./chitiet.html" style="text-decoration: none;color: black">
+                        <div class="boder"><img src="./images/9.jpg" alt="#"
+                                class="img-responsive"> </div>
+                        <p class="title">Iphone Xs 256GB</p>
+                        <p class="price">32.990.000₫</p>
+                        <p>-----------------------------------------------</p>
+                        <p class="description">
+                            Màn hình:6.5,super Retina<br>HĐH:ios12<br>CPU: 4GB,ROM:256GB<br>Camara:Chính 12MP & phụ
+                            12MP,selfie:7MP<br>PIN:3174 mAH
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button class="buying">Mua</button>
+                            </div>
+                            <div class="col-md-6"><button class="installment">Trả Góp</button></div>
+                        </div>
 
-						<ul class="pricing-content list-unstyled">
-							<li>
-								At vero eos
-							</li>
-							<li>
-								No Support
-							</li>
-							<li>
-								Fusce condimentum
-							</li>
-							<li>
-								Ut non libero
-							</li>
-							<li>
-								Consecte adiping elit
-							</li>
-						</ul>
-
-						<div class="pricing-footer">
-							
-							<a href="#" class="btn yellow-crusta">
-							Sign Up
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="pricing hover-effect">
-						<div class="pricing-head">
-							<h3>Pro <span>
-							Officia deserunt mollitia </span>
-							</h3>
-							<h4><i>$</i>8<i>.69</i>
-							<span>
-							Per Month </span>
-							</h4>
-						</div>
-						<ul class="pricing-content list-unstyled">
-							<li>
-								At vero eos
-							</li>
-							<li>
-								No Support
-							</li>
-							<li>
-								Fusce condimentum
-							</li>
-							<li>
-								Ut non libero
-							</li>
-							<li>
-								Consecte adiping elit
-							</li>
-						</ul>
-						<div class="pricing-footer">
-							
-							<a href="#" class="btn yellow-crusta">
-							Sign Up
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="pricing hover-effect">
-						<div class="pricing-head">
-							<h3>Expert <span>
-							Officia deserunt mollitia </span>
-							</h3>
-							<h4><i>$</i>13<i>.99</i>
-							<span>
-							Per Month </span>
-							</h4>
-						</div>
-						<ul class="pricing-content list-unstyled">
-							<li>
-								At vero eos
-							</li>
-							<li>
-								No Support
-							</li>
-							<li>
-								Fusce condimentum
-							</li>
-							<li>
-								Ut non libero
-							</li>
-							<li>
-								Consecte adiping elit
-							</li>
-						</ul>
-						<div class="pricing-footer">
-							
-							<a href="#" class="btn yellow-crusta">
-							Sign Up
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="pricing hover-effect">
-						<div class="pricing-head">
-							<h3>Hi-Tech <span>
-							Officia deserunt mollitia </span>
-							</h3>
-							<h4><i>$</i>99<i>.00</i>
-							<span>
-							Per Month </span>
-							</h4>
-						</div>
-						<ul class="pricing-content list-unstyled">
-							<li>
-								At vero eos
-							</li>
-							<li>
-								No Support
-							</li>
-							<li>
-								Fusce condimentum
-							</li>
-							<li>
-								Ut non libero
-							</li>
-							<li>
-								Consecte adiping elit
-							</li>
-						</ul>
-						<div class="pricing-footer">
-							
-							<a href="#" class="btn yellow-crusta">
-							Sign Up
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="externalframe">
+                    <a href="./chitiet.html" style="text-decoration: none;color: black">
+                        <div class="boder"><img src="./images/10.jpg" alt="#"
+                                class="img-responsive"></div>
+                        <p class="title">Iphone Xs Max 64GB</p>
+                        <p class="price">29.990.000₫</p>
+                        <p>-----------------------------------------------</p>
+                        <p class="description">
+                            Màn hình:6.5,super Retina<br>HĐH:ios12<br>CPU: 4GB,ROM:256GB<br>Camara:Chính 12MP & phụ
+                            12MP,selfie:7MP<br>PIN:3174 mAH
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button class="buying">Mua</button>
+                            </div>
+                            <div class="col-md-6"><button class="installment">Trả Góp</button></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="externalframe">
+                    <a href="./chitiet.html" style="text-decoration: none;color: black">
+                        <div class="boder">
+                            <img src="./images/11.jpg" alt="#" class="img-responsive"></div>
+                        <p class="title">Iphone X 256GB</p>
+                        <p class="price">27.990.000₫</p>
+                        <p>-----------------------------------------------</p>
+                        <p class="description">
+                            Màn hình:6.5,super Retina<br>HĐH:ios12<br>CPU: 4GB,ROM:256GB<br>Camara:Chính 12MP & phụ
+                            12MP,selfie:7MP<br>PIN:3174 mAH
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button class="buying">Mua</button>
+                            </div>
+                            <div class="col-md-6"><button class="installment">Trả Góp</button></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---FooTer-->
+    
+    <p style="text-align: center;font-weight:bold;color: #777777;padding-top:15px;">&copy; Phát Triển Bởi Designer Phạm Văn Hiếu</p>
