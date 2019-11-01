@@ -97,4 +97,4 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
     <!---FooTer-->
     
-    <p style="text-align: center;font-weight:bold;color: #777777;padding-top:15px;">&copy; Phát Triển Bởi Designer Phạm Văn Hiếu</p>
+    
