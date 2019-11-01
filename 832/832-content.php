@@ -27,18 +27,11 @@ $url_path = str_replace('\\', '/', $url_path);
                             Màn hình:6.5,super Retina<br>HĐH:ios12<br>CPU: 4GB,ROM:256GB<br>Camara:Chính 12MP & phụ
                             12MP,selfie:7MP<br>PIN:3174 mAH
                         </p>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <button class="buying">Mua</button>
-                            </div>
-                            <div class="col-md-6"><button class="installment">Trả Góp</button></div>
-                        </div>
+                        <p class="link">
+                            <a href="#" class="shopping-card">Mua Hàng</a>
+                        </p>
                     </a>
                 </div>
-               
-                <!------->
-               
-               
                 <!------->
             </div>
             <div class="col-md-3">
@@ -54,16 +47,13 @@ $url_path = str_replace('\\', '/', $url_path);
                             Màn hình:6.5,super Retina<br>HĐH:ios12<br>CPU: 4GB,ROM:256GB<br>Camara:Chính 12MP & phụ
                             12MP,selfie:7MP<br>PIN:3174 mAH
                         </p>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <button class="buying">Mua</button>
-                            </div>
-                            <div class="col-md-6"><button class="installment">Trả Góp</button></div>
-                        </div>
-
+                        <p class="link">
+                            <a href="#" class="shopping-card">Mua Hàng</a>
+                        </p>
                     </a>
                 </div>
             </div>
+            <!------->
             <div class="col-md-3">
 			<h1 style="text-align:center;">Product 3</h1>
                 <div class="externalframe">
@@ -77,15 +67,13 @@ $url_path = str_replace('\\', '/', $url_path);
                             Màn hình:6.5,super Retina<br>HĐH:ios12<br>CPU: 4GB,ROM:256GB<br>Camara:Chính 12MP & phụ
                             12MP,selfie:7MP<br>PIN:3174 mAH
                         </p>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <button class="buying">Mua</button>
-                            </div>
-                            <div class="col-md-6"><button class="installment">Trả Góp</button></div>
-                        </div>
+                        <p class="link">
+                            <a href="#" class="shopping-card">Mua Hàng</a>
+                        </p>
                     </a>
                 </div>
             </div>
+            <!------->
             <div class="col-md-3">
 			<h1 style="text-align:center;">Product 4</h1>
                 <div class="externalframe">
@@ -99,12 +87,9 @@ $url_path = str_replace('\\', '/', $url_path);
                             Màn hình:6.5,super Retina<br>HĐH:ios12<br>CPU: 4GB,ROM:256GB<br>Camara:Chính 12MP & phụ
                             12MP,selfie:7MP<br>PIN:3174 mAH
                         </p>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <button class="buying">Mua</button>
-                            </div>
-                            <div class="col-md-6"><button class="installment">Trả Góp</button></div>
-                        </div>
+                        <p class="link">
+                            <a href="#" class="shopping-card">Mua Hàng</a>
+                        </p>
                     </a>
                 </div>
             </div>

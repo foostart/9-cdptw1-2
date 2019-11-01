@@ -8,10 +8,21 @@
 .description {
   font-size: 1.1em;
 }
-.buying {
-  padding: 3px 30px;
-  border: 1px solid #fc9e46;
-  background: #fff;
+.shopping-card {
+  color: #fff;
+  background: #337ab7;
+  padding: 10px 30px;
+  text-align: center;
+  border-radius: 90px;
+  font-weight: 16px;
+}
+.shopping-card:hover {
+  color: #fff;
+  background: #00aeef;
+}
+.link {
+  text-align: center;
+  margin: 20px 0;
 }
 .buying:hover {
   background: #fc9e46;
