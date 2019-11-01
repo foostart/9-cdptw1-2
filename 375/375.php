@@ -26,13 +26,30 @@ $less->compileFile('less/375.less', 'css/375.css');
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/375.css" rel="stylesheet" type="text/css"/>
-
+        <link rel="stylesheet" href="./css/swiper.min.css">
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="<?php echo $url_path ?>/js/375.js"></script>
+        <script src="./js/swiper.min.js"></script>
         
     </head>
     <body>
     <?php include $dir_block . '/375-content.php'; ?>
+      <!-- Script Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
     </body>
     </html>

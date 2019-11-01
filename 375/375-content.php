@@ -16,8 +16,9 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container">
             <!-- START LOGO -->
             <div id="logo">
-                <a id="logo-img" href="index.php" title="Sistina"> <img src="images/logo.png" alt="" /> </a>
+                <a id="logo-img" href="#" title="Sistina"> <img src="images/logo.png" alt="" /> </a>
             </div>
+            
             <!-- END LOGO -->
             <!-- START HEADER RIGHT CONTENT -->
             <div id="header-right-content">
@@ -33,7 +34,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="collapse navbar-collapse" id="collap">
                         <ul class="nav navbar-nav nava">
                             <li class="dropdown activemenu"> 
-                                <a href="index.php" class="dropdown-toggle" role="button" aria-expanded="true">HOME</a>
+                                <a href="#" class="dropdown-toggle" role="button" aria-expanded="true">HOME</a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="index.php">Home II</a></li>
                                     <li><a href="#">Home III</a></li>
@@ -45,40 +46,34 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="list.php" class="dropdown-toggle" role="button" aria-expanded="false">
+                                <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">
                                     SHOP
-                                </a> </li>
-                            <li class="dropdown mega-dropdown"> 
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">MEGAMENU</a>
-                                <ul class="dropdown-menu mega-dropdown-menu">
-                                    <li class="col-sm-4">
-                                        <ul>
-                                            <li class="dropdown-header">Features</li>
-                                            <li><a href="#">Auto Carousel</a> </li>
-                                            <li><a href="#">Carousel Control</a> </li>
-                                            <li><a href="#">Left & Right Navigation</a> </li>
-                                            <li><a href="#">Four Columns Grid</a> </li>
-                                        </ul>
-                                    </li>
-                                    <li class="col-sm-4">
-                                        <ul>
-                                            <li class="dropdown-header">Plus</li>
-                                            <li><a href="#">Navbar Inverse</a> </li>
-                                            <li><a href="#">Pull Right Elements</a> </li>
-                                            <li><a href="#">Coloured Headers</a> </li>
-                                            <li><a href="#">Primary Buttons & Default</a> </li>
-                                        </ul>
-                                    </li>
-                                    <li class="col-sm-4">
-                                        <ul>
-                                            <li class="dropdown-header">Much more</li>
-                                            <li><a href="#">Easy to Customize</a> </li>
-                                            <li><a href="#">Calls to action</a> </li>
-                                            <li><a href="#">Custom Fonts</a> </li>
-                                            <li><a href="#">Slide down on Hover</a> </li>
-                                        </ul>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="index.php">Features</a></li>
+                                    <li><a href="#">Auto Carousel</a></li>
+                                    <li><a href="#">Carousel Control</a> </li>
+                                    <li><a href="#">Left & Right Navigation</a>
+                                    <li><a href="#">Four Columns Grid</a>
+                                    <li><a href="#">Pull Right Elements</a>
                                     </li>
                                 </ul>
+                                
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">
+                                    Mega Menu
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="index.php">Web Developer</a></li>
+                                    <li><a href="#">Auto Carousel</a></li>
+                                    <li><a href="#">Visua Sudio Control</a> </li>
+                                    <li><a href="#">Products Here</a>
+                                    <li><a href="#">END HEADER RIGHT CONTENT</a>
+                                    <li><a href="#">No Optional Elements</a>
+                                    </li>
+                                </ul>
+                                
                             </li>
                             <li class="dropdown mega-dropdown"> 
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES</a>
@@ -129,15 +124,64 @@ $url_path = str_replace('\\', '/', $url_path);
         <br>
         <br>
         <!-- END SEARCH BOX -->
-        <div class="header-below">
-            <div class="slider fixed-image inner group">
-                <img src="images/fixed-image.jpg" alt="Sistina Header">
+        <div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h2 style="text-align:center;">
+					<strong>OUR CLIENTS SAYS:</strong>
+				</h2>
+				<br>
+				<p class="our-clinets">
+					Read clientâ€™s opinions about posuere.
+					<br>
+					congue aliquet dis penatibus netus tempor a
+					congue aliquet dis penatibus netus tempor lorem.
+
+				</p>
+			</div>
+			<div class="col-md-8">
+            <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+	  <div class="card" style="width: 50rem;">
+  <img class="card-img-top" src="./images/client1-100x100.png" alt="Card image cap" style="border-radius:90px;">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+	  </div>
+      <div class="swiper-slide">
+	  <div class="card" style="width: 50rem;">
+  <img class="card-img-top" src="./images/client2-100x100.png" alt="Card image cap" style="border-radius:90px;">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+	</div>
+      <div class="swiper-slide">
+	  <div class="card" style="width: 50rem;">
+  <img class="card-img-top" src="./images/client3-100x100.png" alt="Card image cap" style="border-radius:90px;">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+	</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+   
+                    </div>
+              
+                </div>
             </div>
-            <!-- SLOGAN -->
-            <div class="slogan">
-                <h2 class="nopadding">
-                    <img src="images/cart1.png" alt="#">I'm Sistina theme. <strong>Nice to meet you.</strong></h2>
-            </div>
-        </div>
+              <!-- Footer -->
+        <div>
+        <p style="text-align: center;font-weight:bold;color: #777777;padding-top:50px;"><span><img src="./images/cart1.png" alt="#"></span> Phát Triển Bởi Designer Phạm Văn Hiếu</p>
+    </div>
     </div>
 </div>
