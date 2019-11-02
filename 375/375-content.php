@@ -34,7 +34,9 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="collapse navbar-collapse" id="collap">
                         <ul class="nav navbar-nav nava">
                             <li class="dropdown activemenu"> 
-                                <a href="#" class="dropdown-toggle" role="button" aria-expanded="true">HOME</a>
+                                <a href="#" class="dropdown-toggle" role="button" aria-expanded="true">
+                                    HOME<span class="caret"></span>
+                                </a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="index.php">Home II</a></li>
                                     <li><a href="#">Home III</a></li>
@@ -47,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">
-                                    SHOP
+                                    SHOP<span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="index.php">Features</a></li>
@@ -62,7 +64,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">
-                                    Mega Menu
+                                    Mega Menu<span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="index.php">Web Developer</a></li>
@@ -76,10 +78,15 @@ $url_path = str_replace('\\', '/', $url_path);
                                 
                             </li>
                             <li class="dropdown mega-dropdown"> 
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES</a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    PAGES<span class="caret"></span>
+
+                                </a>
                                
                             </li>
-                            <li class="dropdown login-res"> <a href="#" class="dropdown-toggle" >Login/Register</a>
+                            <li class="dropdown login-res"> <a href="#" class="dropdown-toggle" >
+                                Login/Register<span class="caret"></span>
+                            </a>
                                 <ul class="dropdown-menu register">
                                     <li>
                                     <form>
